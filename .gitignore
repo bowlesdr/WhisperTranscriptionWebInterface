@@ -1,0 +1,12 @@
+html/*.html
+html/*.php
+html/images
+html/transcribe_file
+html/uploads
+html/rec_transc/node_modules
+rec_transc_backend/node_modules/
+html/rec_transc/src/components/FileUpload copy.tsx
+html/rec_transc/transcribed_text.txt
+rec_transc_backend/src/server copy.ts
+rec_transc_backend/src/uploads/*
+rec_transc_backend/uploads

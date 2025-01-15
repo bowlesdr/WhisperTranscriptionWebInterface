@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES6", // Use modern JavaScript features
+    "module": "commonjs", // Node.js uses CommonJS module system
+    "rootDir": "./src", // Root directory for TypeScript files
+    "outDir": "./dist", // Output directory for compiled JavaScript files
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Interop between CommonJS and ES modules
+    "forceConsistentCasingInFileNames": true, // File name casing consistency
+
+    /* Type Checking */
+    "strictNullChecks": true, // Ensure strict handling of null/undefined
+    "noImplicitAny": true, // Disallow implicit `any` types
+    "noImplicitThis": true, // Disallow `this` being implicitly any
+
+    /* Node.js Specific */
+    "moduleResolution": "node", // Resolve modules in Node.js style
+    "allowSyntheticDefaultImports": true, // Support synthetic default imports
+    "resolveJsonModule": true, // Allow importing JSON files
+
+    /* Output Options */
+    "declaration": true, // Generate `.d.ts` declaration files
+    "declarationMap": true, // Generate declaration source maps
+    "sourceMap": true, // Generate `.map` files for debugging
+
+    /* Performance */
+    "skipLibCheck": true, // Skip checking types in declaration files
+
+    /* Advanced */
+    "types": ["node"] // Include Node.js type definitions
+  },
+  "include": ["src"], // Include all TypeScript files in the `src` directory
+  "exclude": ["node_modules", "dist"] // Exclude the `node_modules` and output `dist` folders
+}
